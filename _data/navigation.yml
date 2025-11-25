@@ -15,13 +15,7 @@ main:
     url: /talks/    
 
   - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
+    url: /teaching/
     
   - title: "CV"
     url: /cv/
@@ -29,5 +23,8 @@ main:
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+  # Portfolio and Blog Posts removed - uncomment if you add content
+  # - title: "Portfolio"
+  #   url: /portfolio/
+  # - title: "Blog Posts"
+  #   url: /year-archive/

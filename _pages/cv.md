@@ -11,35 +11,37 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Economics, University of Copenhagen (in progress, 3rd year, 3+5 program)
+  * Started: November 2023
+  * Research field: Economics of Education
+  * Project: Implementation and Perception in School Choice (supervised by Andreas Bjerre Nielsen)
+* Master's Programme in Economics, University of Copenhagen (GPA 9.8), February 2023 - present
+  * Courses include: Applied Econometric Policy Evaluation, Economics of Education, Field Experiments, Labor Economics, Mechanism Design, Dynamic Programming
+* BSc in Economics, University of Copenhagen (GPA 10.2), September 2019 - January 2023
+  * Bachelor thesis: School Starting Age and Student Well-being
+* Higher General Examination Programme STX, Kruses Gymnasium (GPA 10.9), August 2015 - June 2018
+  * Math/Physics with French at A-level
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* November 2023 - present: PhD Student
+  * Department of Economics, University of Copenhagen
+  * Research in Economics of Education, focusing on school choice and field experiments
+  
+* June 2021 - October 2023: Student Assistant
+  * Ministry of Children and Education, National Agency for Education and Quality, Division for Analysis and Communication
+  * Work as a 'data-student': data visualization, programming, structuring of data, independent analysis, register data on the research servers of Statistics Denmark
+  
+* August 2018 - August 2020: Substitute
+  * Børnehuset Mimers Brønd
+  * Work in nursery and kindergarten, responsible for opening and closing
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: Python, SAS, STATA
+* Data Analysis: Experience with register data, econometric analysis, field experiments
+* Software: Microsoft Office
+* Languages: English (fluent), French (A-level, French-Canadian mother), Danish (native)
 
 Publications
 ======
@@ -61,4 +63,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* [Service and leadership activities to be added]
