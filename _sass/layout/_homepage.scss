@@ -12,24 +12,44 @@
 }
 
 .homepage-content {
-  max-width: 800px;
+  max-width: 1200px;
   width: 100%;
-  text-align: center;
+  margin: 0 auto;
 }
 
-.homepage-profile {
+.homepage-layout {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  gap: 3em;
+  flex-wrap: wrap;
+  
+  @include breakpoint(max-width $medium) {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+  }
+}
+
+.homepage-profile-image-wrapper {
+  flex-shrink: 0;
+  
+  @include breakpoint(max-width $medium) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .homepage-profile-image {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1.5em;
-  border: 3px solid rgba(255, 255, 255, 0.3);
+  display: block;
+  
+  @include breakpoint(max-width $medium) {
+    width: 200px;
+    height: 200px;
+  }
   
   @include breakpoint(max-width $small) {
     width: 150px;
@@ -37,15 +57,24 @@
   }
 }
 
+.homepage-text-content {
+  flex: 1;
+  min-width: 300px;
+  
+  @include breakpoint(max-width $medium) {
+    text-align: center;
+  }
+}
+
 .homepage-name {
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-weight: 400;
   margin: 0 0 1em 0;
   color: white;
   font-family: $sans-serif;
   
   @include breakpoint(max-width $small) {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 }
 
@@ -54,9 +83,6 @@
   line-height: 1.6;
   margin-bottom: 2em;
   color: white;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
   
   p {
     margin-bottom: 1em;
@@ -70,9 +96,12 @@
 .homepage-buttons {
   display: flex;
   gap: 1.5em;
-  justify-content: center;
   flex-wrap: wrap;
   margin-top: 1em;
+  
+  @include breakpoint(max-width $medium) {
+    justify-content: center;
+  }
 }
 
 .btn-homepage {
