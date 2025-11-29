@@ -15,6 +15,8 @@ I work closely with collaborators and policy makers to design, evaluate, and imp
 
 ## Co-authors
 
+I am fortunate to collaborate with these talented researchers on various projects:
+
 - **Andreas Bjerre-Nielsen**  
   [Website](https://bjerre-nielsen.me/) · [LinkedIn](https://www.linkedin.com/in/andbjn/) · [GitHub](https://github.com/abjer)
 
@@ -28,7 +30,9 @@ I work closely with collaborators and policy makers to design, evaluate, and imp
 
 ## Awesome people I have worked with along the way
 
-- **Martien Sielfeld**  
+Here are some talented people I have worked with during my research visits in New Haven:
+
+- **Martin Sielfeld**  
   [LinkedIn](https://www.linkedin.com/in/martin-domingo-sielfeld-oryan/) · [GitHub](https://github.com/martinsielfeld)
 
 - **Tamara Muñoz**  

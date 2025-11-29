@@ -148,7 +148,7 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   line-height: 1.2;
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--global-text-color);
   
   @include breakpoint(max-width $small) {
@@ -162,7 +162,7 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   line-height: 1.2;
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--global-text-color);
   margin-top: 0.2em;
   

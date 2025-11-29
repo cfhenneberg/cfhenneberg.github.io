@@ -1,0 +1,26 @@
+/* ==========================================================================
+   FORCE LIGHT THEME - Override any dark mode styles
+   ========================================================================== */
+
+/* Override dark theme styles - force light theme always */
+html[data-theme="dark"],
+html[data-theme] {
+  /* Force light theme variables - override dark theme */
+  --global-base-color: #{$gray} !important;
+  --global-bg-color: #fff !important;
+  --global-footer-bg-color: #f2f3f3 !important;
+  --global-border-color: #{$lighter-gray} !important;
+  --global-dark-border-color: #bdc1c4 !important;
+  --global-code-background-color: #fafafa !important;
+  --global-code-text-color: #{$darker-gray} !important;
+  --global-fig-caption-color: mix(#fff, #{$dark-gray}, 25%) !important;
+  --global-link-color: #901a1e !important;
+  --global-link-color-hover: mix(#000, #901a1e, 25%) !important;
+  --global-link-color-visited: mix(#fff, #901a1e, 25%) !important;
+  --global-masthead-link-color: #{$dark-gray} !important;
+  --global-masthead-link-color-hover: mix(#000, #{$gray}, 25%) !important;
+  --global-text-color: #{$dark-gray} !important;
+  --global-text-color-light: #{$light-gray} !important;
+  --global-thead-color: #{$lighter-gray} !important;
+}
+
