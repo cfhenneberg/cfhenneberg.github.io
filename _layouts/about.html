@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div class="about-hero" style="background-color: rgb(144, 26, 30); color: white; padding: 4em 1em 2em 1em; text-align: center; margin-top: 60px;">
+  <div class="wrapper">
+    <h1 class="about-hero-title">ABOUT</h1>
+  </div>
+</div>
+
+<div id="main" role="main" style="background-color: white;">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <section class="page__content about-content" itemprop="text" style="padding: 3em 1em;">
+      <div class="wrapper">
+        {{ content }}
+        
+        <div class="about-cv-button" style="margin-top: 3em;">
+          <a href="{{ base_path }}/files/cv.pdf" class="btn-about-cv" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+  </article>
+</div>
+

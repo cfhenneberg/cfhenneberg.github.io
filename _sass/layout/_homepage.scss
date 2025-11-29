@@ -1,0 +1,228 @@
+/* ==========================================================================
+   HOMEPAGE
+   ========================================================================== */
+
+.homepage-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2em 1em;
+  color: white;
+}
+
+.homepage-content {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.homepage-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage-profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5em;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  
+  @include breakpoint(max-width $small) {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.homepage-name {
+  font-size: 2.5em;
+  font-weight: 400;
+  margin: 0 0 1em 0;
+  color: white;
+  font-family: $sans-serif;
+  
+  @include breakpoint(max-width $small) {
+    font-size: 2em;
+  }
+}
+
+.homepage-bio {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 2em;
+  color: white;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  @include breakpoint(max-width $small) {
+    font-size: 1em;
+  }
+}
+
+.homepage-buttons {
+  display: flex;
+  gap: 1.5em;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.btn-homepage {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  
+  &:hover {
+    background: white;
+    color: rgb(144, 26, 30);
+    text-decoration: none;
+  }
+}
+
+.btn-read-more {
+  font-weight: 600;
+}
+
+.btn-download-cv {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+}
+
+/* Masthead name and title styling */
+.masthead__name-title {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.masthead__name {
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  text-decoration: underline;
+  color: var(--global-text-color);
+  
+  @include breakpoint(max-width $small) {
+    font-size: 0.75em;
+  }
+}
+
+.masthead__title {
+  font-size: 0.85em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  text-decoration: underline;
+  color: var(--global-text-color);
+  margin-top: 0.2em;
+  
+  @include breakpoint(max-width $small) {
+    font-size: 0.7em;
+  }
+}
+
+/* ==========================================================================
+   ABOUT PAGE
+   ========================================================================== */
+
+.about-hero {
+  margin-top: 60px;
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.about-hero-title {
+  font-size: 4em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  color: white;
+  font-family: $sans-serif;
+  
+  @include breakpoint(max-width $medium) {
+    font-size: 3em;
+  }
+  
+  @include breakpoint(max-width $small) {
+    font-size: 2em;
+  }
+}
+
+.about-content {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: var(--global-text-color);
+  
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: var(--global-text-color);
+  }
+  
+  p {
+    margin-bottom: 1.5em;
+  }
+  
+  ul {
+    margin-bottom: 1.5em;
+    
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+.about-cv-button {
+  text-align: left;
+}
+
+.btn-about-cv {
+  display: inline-block;
+  padding: 0.75em 2em;
+  background-color: rgb(144, 26, 30);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: 2px solid rgb(144, 26, 30);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: transparent;
+    color: rgb(144, 26, 30);
+    text-decoration: none;
+  }
+}
+
