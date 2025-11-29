@@ -1,25 +1,37 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
+<div class="footer-main">
+  <div class="footer-column footer-brand">
+    <div class="footer-name">CHRISTIAN FOGEL HENNEBERG</div>
+    <div class="footer-title">PHD STUDENT IN ECONOMICS</div>
+    <div class="footer-copy">&copy; {{ site.time | date: '%Y' }} Christian Fogel Henneberg</div>
+  </div>
 
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}
+  <div class="footer-column footer-sections">
+    <div class="footer-heading">SECTIONS</div>
+    <ul>
+      <li><a href="{{ base_path }}/">Home</a></li>
+      <li><a href="{{ base_path }}/about/">About</a></li>
+      <li><a href="{{ base_path }}/research/">Research</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-column footer-contact">
+    <div class="footer-heading">CONTACT</div>
+    <div class="footer-contact-line">
+      Email: <a href="mailto:cfh@econ.ku.dk">cfh@econ.ku.dk</a>
+    </div>
+    <div class="footer-contact-line">
+      Office: Øster Farimagsgade 5, building 26, DK-1353 Copenhagen K, Denmark
+    </div>
+    <div class="footer-social">
+      <a href="https://x.com/CFogelHenneberg" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/christianfogel/" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/christian-fogel-henneberg-970bb22ab/" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+      <a href="https://github.com/cfhenneberg" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+      <a href="https://researchprofiles.ku.dk/en/persons/christian-fogel-henneberg/" aria-label="KU Research Profile"><i class="fa fa-university" aria-hidden="true"></i></a>
+      <a href="https://orcid.org/0009-0003-4216-1144" aria-label="ORCID"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+      <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=X7b1qXIAAAAJ" aria-label="Google Scholar"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+    </div>
+  </div>
 </div>

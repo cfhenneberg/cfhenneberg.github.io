@@ -7,22 +7,69 @@ layout: about
 
 I am a third year PhD student in Economics at the University of Copenhagen, enrolled in the 3+5 program. My research focuses on the study of public policies and regulation in education markets, with a particular emphasis on school choice, field experiments, and information barriers.
 
-## Research
+I work closely with collaborators and policy makers to design, evaluate, and implement education policies that aim to expand equitable opportunities for human capital accumulation.
 
-I am currently pursuing my PhD in the Department of Economics at the University of Copenhagen. As part of the 3+5 program, I am working on the Implementation and Perception in School Choice project, focusing on closing information barriers and addressing misperceptions in the high school application process. My research is supervised by Andreas Bjerre Nielsen.
+[Download CV](/files/cv.pdf){: .btn-about-cv }
 
-## Research Interests
+---
 
-* School Choice
-* Economics of Education
-* Public Goods
-* Field Experiments
-* Industrial Organization
+## Co-authors
 
-## Education
+- **Andreas Bjerre-Nielsen**  
+  [Website](https://bjerre-nielsen.me/) · [LinkedIn](https://www.linkedin.com/in/andbjn/) · [GitHub](https://github.com/abjer)
 
-* PhD in Economics, University of Copenhagen (in progress, 3rd year, 3+5 program)
-* Master's Programme in Economics, University of Copenhagen (GPA 9.8), 2023 - present
-* BSc in Economics, University of Copenhagen (GPA 10.2), 2019 - 2023
-* Higher General Examination Programme STX, Kruses Gymnasium (GPA 10.9), 2015 - 2018
+- **Mikkel Høst Gandil**  
+  [Website](https://sites.google.com/view/mikkelgandil) · [LinkedIn](https://www.linkedin.com/in/mikkel-gandil/) · [GitHub](https://github.com/MikkelGandil)
+
+- **Christopher A. Neilson**  
+  [Website](https://www.christopher-neilson.com/index.html) · [LinkedIn](https://www.linkedin.com/in/christopher-a-neilson/) · [GitHub](https://github.com/christopherneilson)
+
+---
+
+## Awesome people I have worked with along the way
+
+- **Martien Sielfeld**  
+  [LinkedIn](https://www.linkedin.com/in/martin-domingo-sielfeld-oryan/) · [GitHub](https://github.com/martinsielfeld)
+
+- **Tamara Muñoz**  
+  [LinkedIn](https://www.linkedin.com/in/tamara-munoz-ojeda/) · [GitHub](https://github.com/tmunozo)
+
+---
+
+## Office mates
+
+Here are the (awesome) people that I share an office with in room 26.1.20:
+
+- **Anders Huus Pedersen**  
+  [LinkedIn](https://www.linkedin.com/in/anders-huus-pedersen-5304a6190/) · [KU research profile](https://researchprofiles.ku.dk/en/persons/anders-huus-pedersen/)
+
+- **Hannah Simon**  
+  [Website](https://sites.google.com/view/hannahsimon/bio) · [LinkedIn](https://www.linkedin.com/in/hannah-c-simon/) · [KU research profile](https://researchprofiles.ku.dk/en/persons/hannah-christine-simon/)
+
+- **Katrin Menne**  
+  [LinkedIn](https://www.linkedin.com/in/katrin-menne-7889851a2/) · [KU research profile](https://researchprofiles.ku.dk/en/persons/katrin-menne/)
+
+And here are my other (awesome) fellow PhDs at the Department of Economics, University of Copenhagen: [PhD students at the Department of Economics](https://www.economics.ku.dk/staff/phd_kopi/).
+
+---
+
+## Mentors
+
+Here are some of the people that inspired me from my time in the Ministry of Children and Education, National Agency for Education and Quality:
+
+- **Trine Vestergaard**  
+  [LinkedIn](https://www.linkedin.com/in/trine-vestergaard-5458776a/)
+
+- **Jon Jespersen**  
+  [LinkedIn](https://www.linkedin.com/in/jon-jespersen/)
+
+---
+
+## Fun facts about me
+
+As you have made it all the way down to here, I thought I would give you a few fun facts to know about me:
+
+1. I am the two time club champion at Værløse Farum Cycling Club (proof: [Værløse Farum Cycling Club club championship](https://vfc.dk/klubmesterskab.html)).
+2. I once finished top 10 in the Danish National U13 Cross-country Skiing Championship (I finished 6/6).
+3. I have the awesomest girlfriend – go check her out: [Miriam Engel](https://www.linkedin.com/in/miriamengel/).
 
