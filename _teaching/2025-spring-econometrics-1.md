@@ -8,7 +8,9 @@ date: 2025-02-01
 location: "Copenhagen, Denmark"
 ---
 
-Teaching Assistant for Econometrics I (AØKB08020U), a mandatory 4th semester course for Bachelor students in Economics at the University of Copenhagen. The course covers multiple linear regression models, Ordinary Least Squares (OLS) estimation, hypothesis testing, and advanced topics including Instrumental Variables (IV), panel data methods, and time series regression. Students work with STATA software and conduct empirical analyses using real datasets.
+**Econometrics I (Spring 2025), University of Copenhagen, Department of Economics**
+
+I held weekly exercise classes and corrected assignments for a class of ~200 students. The course covers multiple linear regression models, Ordinary Least Squares (OLS) estimation, hypothesis testing, and advanced topics including Instrumental Variables (IV), panel data methods, and time series regression.
 
 [Course information](https://kurser.ku.dk/course/a%C3%98kb08020u)
 

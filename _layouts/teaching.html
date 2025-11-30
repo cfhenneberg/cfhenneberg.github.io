@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div class="about-hero" style="background-color: rgb(144, 26, 30); color: white; padding: 4em 1em 2em 1em; text-align: center; margin-top: 60px;">
+  <div class="wrapper">
+    <h1 class="about-hero-title">TEACHING</h1>
+  </div>
+</div>
+
+<div id="main" role="main" style="background-color: white;">
+  {% include sidebar.html %}
+  
+  <div class="archive">
+    <div class="page__inner-wrap">
+      {% if content != "" %}
+        <div class="page__content about-content" itemprop="text" style="padding: 2em 1em 1em 1em;">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
+      {% endif %}
+      
+      <div class="page__content" style="padding: 1em;">
+        {% for post in site.teaching reversed %}
+          {% include archive-single.html %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+

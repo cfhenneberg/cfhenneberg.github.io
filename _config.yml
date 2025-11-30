@@ -23,7 +23,7 @@ repository               : "cfhenneberg/cfhenneberg.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_edited.PNG"
   name             : "Christian Fogel Henneberg"
   pronouns         : # example: "she/her"  
   bio              : "Third year PhD student in Economics at the University of Copenhagen (3+5 program)"

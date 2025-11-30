@@ -40,20 +40,20 @@
 }
 
 .homepage-profile-image {
-  width: 250px;
-  height: 250px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
   
   @include breakpoint(max-width $medium) {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
   
   @include breakpoint(max-width $small) {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 }
 
