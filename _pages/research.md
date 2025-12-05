@@ -9,7 +9,7 @@ layout: research
 
 - <span style="display: inline-block; width: 20px; height: 20px; margin-right: 8px; vertical-align: middle;">🔨</span> **Improving Equity in Danish School Choice: A Digital Guidance Tool for Social Inclusion**  
   <span style="background-color: #e0e0e0; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; color: #666; margin-left: 4px;">WIP</span>  
-  with Andreas Bjerre-Nielsen, Mikkel Gandil
+  with [Andreas Bjerre-Nielsen](https://bjerre-nielsen.me/), [Mikkel Gandil](https://sites.google.com/view/mikkelgandil), [Christopher A. Neilson](https://www.christopher-neilson.com/index.html)
 
 ---
 
