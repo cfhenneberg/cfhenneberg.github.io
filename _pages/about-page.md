@@ -5,9 +5,13 @@ author_profile: false
 layout: about
 ---
 
-I am a third year PhD student in Economics at the University of Copenhagen, enrolled in the 3+5 program. My research focuses on the study of public policies and regulation in education markets, with a particular emphasis on school choice, field experiments, and information barriers.
+I am a PhD student in Economics at the University of Copenhagen, enrolled in the department's 3+5 PhD program, with an expected completion in 2028. My research lies at the intersection of market design, public economics, and the economics of education. I study how families interact with complex allocation mechanisms and how institutional design and information environments shape access to public services and long-run opportunities.
 
-I work closely with collaborators and policy makers to design, evaluate, and implement education policies that aim to expand equitable opportunities for human capital accumulation.
+One line of work examines school choice and the centralized assignment to upper-secondary education in Denmark. Together with collaborators and policy partners, I study how families navigate the hybrid Boston/DA admission mechanism, how misperceptions about admission chances and school quality arise, and how digital decision-support tools can lower information barriers. This work combines administrative data, survey evidence, and a large-scale field experiment that provides personalized guidance to families during the high-stakes school application process.
+
+A second, solo-authored project develops a market-design framework for the provision and siting of public amenities. Using detailed usage data from Copenhagen's public library network, I estimate heterogeneous demand for different types of amenities and quantify how alternative network configurations—such as relocating, expanding, or redesigning branches—affect welfare and distributional outcomes across neighborhoods.
+
+Across these projects, I collaborate with researchers and public-sector partners to evaluate and design policies that promote equitable access to education and local public services. My work combines structural modeling, administrative data, and field experiments to generate evidence that can inform policy implementation at scale.
 
 [Download CV](/files/cv.pdf){: .btn-about-cv }
 
