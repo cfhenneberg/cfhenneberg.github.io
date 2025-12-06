@@ -64,6 +64,11 @@
   & + p {
     text-indent: 0;
   }
+
+  &--teaching {
+    font-size: $type-size-5;
+    margin-top: 0.5em;
+  }
 }
 
 .archive__item-teaser {
