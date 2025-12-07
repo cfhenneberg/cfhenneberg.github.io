@@ -10,8 +10,9 @@
   }
 
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    @include span(11 of 12 last);
     @include prefix(0.5 of 12);
+    @include suffix(0.5 of 12);
   }
 
   a {
@@ -42,6 +43,14 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  
+  @include breakpoint($large) {
+    font-size: 1.15em;
+  }
+  
+  @include breakpoint($x-large) {
+    font-size: 1.2em;
+  }
 
   a + a {
     opacity: 0.5;
@@ -66,6 +75,14 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  
+  @include breakpoint($large) {
+    font-size: 0.85em;
+  }
+  
+  @include breakpoint($x-large) {
+    font-size: 0.9em;
+  }
 
   & + p {
     text-indent: 0;
@@ -74,6 +91,14 @@
   &--teaching {
     font-size: $type-size-5;
     margin-top: 0.5em;
+    
+    @include breakpoint($large) {
+      font-size: 1.1em;
+    }
+    
+    @include breakpoint($x-large) {
+      font-size: 1.15em;
+    }
   }
 }
 
