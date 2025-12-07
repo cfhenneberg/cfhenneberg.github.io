@@ -15,6 +15,14 @@
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  
+  @include breakpoint($large) {
+    max-width: 1400px;
+  }
+  
+  @include breakpoint($x-large) {
+    max-width: 1600px;
+  }
 }
 
 .homepage-layout {
@@ -76,6 +84,14 @@
   @include breakpoint(max-width $small) {
     font-size: 1.8em;
   }
+  
+  @include breakpoint($large) {
+    font-size: 2.5em;
+  }
+  
+  @include breakpoint($x-large) {
+    font-size: 2.8em;
+  }
 }
 
 .homepage-bio {
@@ -90,6 +106,14 @@
   
   @include breakpoint(max-width $small) {
     font-size: 1em;
+  }
+  
+  @include breakpoint($large) {
+    font-size: 1.2em;
+  }
+  
+  @include breakpoint($x-large) {
+    font-size: 1.3em;
   }
 }
 
@@ -169,6 +193,14 @@
   @include breakpoint(max-width $small) {
     font-size: 0.7em;
   }
+  
+  @include breakpoint($large) {
+    font-size: 0.95em;
+  }
+  
+  @include breakpoint($x-large) {
+    font-size: 1em;
+  }
 }
 
 /* ==========================================================================
@@ -181,6 +213,14 @@
   .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    
+    @include breakpoint($large) {
+      max-width: 1400px;
+    }
+    
+    @include breakpoint($x-large) {
+      max-width: 1600px;
+    }
   }
 }
 
@@ -210,6 +250,14 @@
   .wrapper {
     max-width: 800px;
     margin: 0 auto;
+    
+    @include breakpoint($large) {
+      max-width: 1000px;
+    }
+    
+    @include breakpoint($x-large) {
+      max-width: 1200px;
+    }
   }
   
   h2 {
@@ -217,10 +265,26 @@
     margin-top: 2em;
     margin-bottom: 1em;
     color: var(--global-text-color);
+    
+    @include breakpoint($large) {
+      font-size: 1.7em;
+    }
+    
+    @include breakpoint($x-large) {
+      font-size: 1.9em;
+    }
   }
   
   p {
     margin-bottom: 1.5em;
+    
+    @include breakpoint($large) {
+      font-size: 1.15em;
+    }
+    
+    @include breakpoint($x-large) {
+      font-size: 1.2em;
+    }
   }
   
   ul {

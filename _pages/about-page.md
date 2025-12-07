@@ -9,11 +9,11 @@ I am a PhD student in Economics at the University of Copenhagen, enrolled in the
 
 One line of work examines <span style="color: rgb(144, 26, 30); font-weight: bold;">school choice</span> and the centralized assignment to upper-secondary education in Denmark. Together with collaborators and policy partners, I study how families navigate the hybrid Boston/DA admission mechanism, how misperceptions about admission chances and school quality arise, and how digital decision-support tools can lower information barriers. This work combines administrative data, survey evidence, and a large-scale field experiment that provides personalized guidance to families during the high-stakes school application process.
 
-A second, solo-authored project develops a <span style="color: rgb(144, 26, 30); font-weight: bold;">market-design</span> framework for the provision and siting of <span style="color: rgb(144, 26, 30); font-weight: bold;">public amenities</span>. Using detailed usage data from Copenhagen's public library network, I estimate heterogeneous demand for different types of amenities and quantify how alternative network configurations—such as relocating, expanding, or redesigning branches—affect welfare and distributional outcomes across neighborhoods.
+A second, solo-authored project develops a market-design framework for the provision and siting of <span style="color: rgb(144, 26, 30); font-weight: bold;">public amenities</span>. Using detailed usage data from Copenhagen's public library network, I estimate heterogeneous demand for different types of amenities and quantify how alternative network configurations—such as relocating, expanding, or redesigning branches—affect welfare and distributional outcomes across neighborhoods.
 
-Across these projects, I collaborate with researchers and public-sector partners to evaluate and design policies that promote equitable access to education and local public services. My work combines structural modeling, administrative data, and field experiments to generate evidence that can inform policy implementation at scale.
+Across these projects, I collaborate with researchers and public-sector partners to evaluate and design policies that promote equitable access to education and local public services. My work combines <span style="color: rgb(144, 26, 30); font-weight: bold;">structural modeling</span>, <span style="color: rgb(144, 26, 30); font-weight: bold;">administrative data</span>, and <span style="color: rgb(144, 26, 30); font-weight: bold;">field experiments</span> to generate evidence that can inform <span style="color: rgb(144, 26, 30); font-weight: bold;">policy implementation</span> at scale.
 
-[Download CV](/files/cv.pdf){: .btn-about-cv }
+[Download CV](/files/CV_CFH.pdf){: .btn-about-cv }
 
 ---
 

@@ -183,6 +183,15 @@
     padding: 0.5rem 0;
     color: var(--global-masthead-link-color);
     text-decoration: none;
+    font-size: $type-size-5;
+    
+    @include breakpoint($large) {
+      font-size: 1.1em;
+    }
+    
+    @include breakpoint($x-large) {
+      font-size: 1.15em;
+    }
 
     &:hover {
       color: var(--global-masthead-link-color-hover);
