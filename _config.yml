@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Christian Fogel Henneberg"
 title_separator          : "-"
 name                     : &name "Christian Fogel Henneberg"
-description              : &description "Christian Fogel Henneberg's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "I am a third year PhD student in Economics at the University of Copenhagen, enrolled in the 3+5 program. My research focuses on the study of public policies and regulation in education markets."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://cfhenneberg.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -140,14 +140,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "favicon.svg" # Social media default site image
+og_description           : "I am a third year PhD student in Economics at the University of Copenhagen, enrolled in the 3+5 program. My research focuses on the study of public policies and regulation in education markets." # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "Christian Fogel Henneberg" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://scholar.google.com/citations?view_op=list_works&hl=en&user=X7b1qXIAAAAJ"
+    - "https://orcid.org/0009-0003-4216-1144"
 
 
 # Analytics
