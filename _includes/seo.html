@@ -7,7 +7,7 @@
 {% assign seo_url = seo_url | default: site.github.url %}
 
 {% if page.title %}
-  {% if page.url == "/" or page.url == "" or page.url == "/index.html" %}
+  {% if page.url == "/" or page.url == "" or page.url == "/index.html" or page.permalink == "/" %}
     {% assign seo_title = page.title %}
   {% else %}
     {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
@@ -97,7 +97,7 @@
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
       "name" : "{{ site.social.name | default: site.name }}",
       "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }},
+      {% if site.social.links and site.social.links.size > 0 %}"sameAs" : {{ site.social.links | jsonify }},{% endif %}
       "jobTitle" : "PhD Student in Economics",
       "worksFor" : {
         "@type" : "Organization",
@@ -146,7 +146,9 @@
 {% else %}
   <meta property="og:type" content="website">
 {% endif %}
-{% if page.excerpt %}
+{% if page.description %}
+  <meta property="og:description" name="description" content="{{ seo_description }}">
+{% elsif page.excerpt %}
   <meta property="og:description" name="description" content="{{ seo_description }}">
 {% elsif site.og_description %}
   <meta property="og:description" name="description" content="{{ site.og_description }}">
