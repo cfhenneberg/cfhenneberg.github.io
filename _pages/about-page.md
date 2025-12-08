@@ -32,6 +32,15 @@ I am fortunate to collaborate with these talented researchers on various project
 
 ---
 
+## Research Collaborations
+
+I am fortunate to collaborate with the following public-sector partner:
+
+- **Danish National Agency for Education and Quality (Ministry of Children and Education)**  
+  Ongoing collaboration linked to my research in the economics of education, including work with their administrative data at Statistics Denmark.
+
+---
+
 ## Awesome people I have worked with along the way
 
 Here are some talented people I have worked with during my research visits in New Haven:
@@ -80,4 +89,3 @@ As you have made it all the way down to here, I thought I would give you a few f
 1. I am the two time club champion at Værløse Farum Cycling Club (proof: [Værløse Farum Cycling Club club championship](https://vfc.dk/klubmesterskab.html)).
 2. I once finished top 10 in the Danish National U13 Cross-country Skiing Championship (I finished 6/6).
 3. I have the awesomest girlfriend – go check her out: [Miriam Engel](https://www.linkedin.com/in/miriamengel/).
-
