@@ -37,8 +37,7 @@ I am fortunate to collaborate with these talented researchers on various project
 I am fortunate to collaborate with the following public-sector partner:
 
 - **Danish National Agency for Education and Quality (Ministry of Children and Education)**
-
-Ongoing collaboration linked to my research in the economics of education, including work with their administrative data at Statistics Denmark.
+  Ongoing collaboration linked to my research in the economics of education, including work with their administrative data at Statistics Denmark.
 
 ---
 
