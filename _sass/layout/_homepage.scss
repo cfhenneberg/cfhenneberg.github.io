@@ -292,6 +292,30 @@
     
     li {
       margin-bottom: 0.5em;
+      
+      @include breakpoint($large) {
+        font-size: 1.15em;
+      }
+      
+      @include breakpoint($x-large) {
+        font-size: 1.2em;
+      }
+    }
+  }
+  
+  ol {
+    margin-bottom: 1.5em;
+    
+    li {
+      margin-bottom: 0.5em;
+      
+      @include breakpoint($large) {
+        font-size: 1.15em;
+      }
+      
+      @include breakpoint($x-large) {
+        font-size: 1.2em;
+      }
     }
   }
 }
